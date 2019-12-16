@@ -1,1 +1,36 @@
 /*Base*/
+body {
+  font-family: "Noto Serif JP", serif;
+}
+
+.form-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.form__input {
+  display: block;
+  color: #bebebe;
+  color: #2487ff;
+  width: 80%;
+  border-radius: 8%;
+  margin-bottom: 2%;
+}
+.form__btn {
+  color: #fff;
+  background-color: #bebebe;
+  border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  transition: all 0.5s;
+  font-family: "Ubuntu", sans-serif;
+  width: 70px;
+  height: 30px;
+  font-size: 16px;
+}
+.form__btn:hover {
+  background-color: white;
+  border: 1px solid #bebebe;
+  color: #bebebe;
+}
