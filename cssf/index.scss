@@ -1,52 +1,48 @@
-/*Base*/
-
-// カラー
-$color1: #bebebe;
-// フォント
-$font1: "Noto Serif JP", serif;
-$font2: "Ubuntu", sans-serif;
-$font3: "Mansalva", cursive;
-
-/*Base*/
-
-@mixin color2 {
-  color: #2487ff;
-}
-
-body {
-  font-family: $font1;
-}
-
-.form-container {
-  width: 80%;
-  margin: 0 auto;
-}
-
-.form {
-  &__input {
-    display: block;
-    color: $color1;
-    @include color2;
-    width: 80%;
-    border-radius: 8%;
-    margin-bottom: 2%;
-  }
-  &__btn {
-    color: #fff;
-    background-color: #bebebe;
-    border-radius: 8px;
-    display: inline-block;
-    margin-bottom: 5px;
-    margin-left: 5px;
-    transition: all 0.5s;
-    font-family: $font2;
-    width: 70px;
-    height: 30px;
-    font-size: 16px;
-    &:hover {
-      background-color: white;
-      border: 1px solid #bebebe;
-      color: #bebebe;
+@media screen and  (min-width: 375px) {
+    /*Base*/
+    // カラー
+    $color1: #bebebe;
+    // フォント
+    $font1: "Noto Serif JP", serif;
+    $font2: "Ubuntu", sans-serif;
+    $font3: "Mansalva", cursive;
+    /*Base*/
+    @mixin color2 {
+        color: #2487ff;
     }
-  }
+    body {
+        font-family: $font1;
+    }
+    .form-container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .form {
+        &__input {
+            display: block;
+            color: $color1;
+            @include color2;
+            width: 80%;
+            border-radius: 8%;
+            margin-bottom: 2%;
+        }
+        &__btn {
+            color: #fff;
+            background-color: #bebebe;
+            border-radius: 8px;
+            display: inline-block;
+            margin-bottom: 5px;
+            margin-left: 5px;
+            transition: all 0.5s;
+            font-family: $font2;
+            width: 70px;
+            height: 30px;
+            font-size: 16px;
+            &:hover {
+                background-color: white;
+                border: 1px solid #bebebe;
+                color: #bebebe;
+            }
+        }
+    }
 }
