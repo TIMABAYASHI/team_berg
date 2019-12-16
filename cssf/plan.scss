@@ -1,0 +1,86 @@
+// @media screen and  (min-width: 375px) {
+
+/*Base*/
+
+// カラー
+$color1: #bebebe;
+// フォント
+$font1: "Noto Serif JP",
+serif;
+$font2: "Ubuntu",
+sans-serif;
+$font3: "Mansalva",
+cursive;
+@mixin color2 {
+    color: #2487ff;
+}
+
+
+/*Base*/
+
+body {
+    font-family: $font1;
+}
+
+.title {
+    margin: 18% 0 7% 0;
+    text-align: center;
+    font-size: 22px;
+}
+
+.coment {
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    margin: 10% 0 5% 0;
+}
+
+.form-container img {
+    width: 80%;
+    height: 8%;
+    text-align: center;
+    margin: 1% 10% 0% 10%;
+    background-color: #bebebe;
+}
+
+.form {
+    &__btn {
+        width: 50%;
+        height: 30%;
+        color: #fff;
+        border-radius: 3px;
+        display: inline-block;
+        margin: 0 25% 0 25%;
+        // transition: all 0.3s ease 0s;
+        text-transform: uppercase;
+        font-family: $font2;
+        font-size: 16px;
+        font-weight: 700;
+        &:hover {
+            background-color: white;
+            border: 1px solid #326295;
+            color: #326295;
+        }
+    }
+}
+
+.material-icons {
+    font-size: 50px;
+    margin: 1% 6% 1% 6%;
+    color: rgba($color: #000000, $alpha: 0.4);
+    &.back {
+        margin-top: 8% 4% 1% 5%;
+    }
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    height: 8%;
+    background-color: #c5c5c5;
+    position: absolute;
+    bottom: 0;
+    box-shadow: 4px 0 0 0 #6b6b6b;
+}
+
+// }

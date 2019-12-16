@@ -1,66 +1,65 @@
 /*Base*/
 /*Base*/
-.title {
-  margin: 7% 0 7% 0;
-  text-align: center;
-  font-size: 22px;
-}
-
-.coment p {
-  width: 100%;
-  font-size: 15px;
-  text-align: center;
-  margin: 7% 0 7% 0;
-}
-
 body {
   font-family: "Noto Serif JP", serif;
 }
 
-.form-container {
-  width: 80%;
-  margin: 0 auto;
+.title {
+  margin: 18% 0 7% 0;
   text-align: center;
-  margin: 7% 0 7% 0;
+  font-size: 22px;
+}
+
+.coment {
+  width: 100%;
+  font-size: 15px;
+  text-align: center;
+  margin: 10% 0 5% 0;
+}
+
+.form-container img {
+  width: 80%;
+  height: 8%;
+  text-align: center;
+  margin: 1% 10% 0% 10%;
+  background-color: #bebebe;
 }
 
 .form__btn {
   width: 50%;
-  height: 25%;
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: 700;
-  color: #326295;
-  text-transform: uppercase;
-  border-radius: 5px;
-  transition: all 0.3s ease 0s;
-}
-
-.form__input {
-  display: block;
-  color: #bebebe;
-  color: #2487ff;
-  width: 80%;
-  border-radius: 8%;
-  margin-bottom: 2%;
-}
-.form__btn {
+  height: 30%;
   color: #fff;
-  background-color: #bebebe;
-  border-radius: 8px;
+  border-radius: 3px;
   display: inline-block;
-  margin-bottom: 5px;
-  margin-left: 5px;
-  transition: all 0.5s;
+  margin: 0 25% 0 25%;
+  text-transform: uppercase;
   font-family: "Ubuntu", sans-serif;
-  width: 70px;
-  height: 30px;
   font-size: 16px;
+  font-weight: 700;
 }
 .form__btn:hover {
   background-color: white;
-  border: 1px solid #bebebe;
-  color: #bebebe;
+  border: 1px solid #326295;
+  color: #326295;
+}
+
+.material-icons {
+  font-size: 50px;
+  margin: 1% 6% 1% 6%;
+  color: rgba(0, 0, 0, 0.4);
+}
+.material-icons.back {
+  margin-top: 8% 4% 1% 5%;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  height: 8%;
+  background-color: #c5c5c5;
+  position: absolute;
+  bottom: 0;
+  box-shadow: 4px 0 0 0 #6b6b6b;
 }
 
 /*# sourceMappingURL=main.css.map */
