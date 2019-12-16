@@ -1,1 +1,1 @@
-team_berg
+これがTEAM　BergのGITです
