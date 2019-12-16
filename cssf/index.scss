@@ -1,14 +1,16 @@
 /*Base*/
 
 // カラー
-$color1: red;
+$color1: #bebebe;
 // フォント
 $font1: "Noto Serif JP", serif;
+$font2: "Ubuntu", sans-serif;
+$font3: "Mansalva", cursive;
 
 /*Base*/
 
 @mixin color2 {
-  color: blue;
+  color: #2487ff;
 }
 
 body {
@@ -37,7 +39,7 @@ body {
     margin-bottom: 5px;
     margin-left: 5px;
     transition: all 0.5s;
-    font-family: $font1;
+    font-family: $font2;
     width: 70px;
     height: 30px;
     font-size: 16px;

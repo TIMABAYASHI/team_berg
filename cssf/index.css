@@ -1,5 +1,4 @@
 /*Base*/
-/*Base*/
 body {
   font-family: "Noto Serif JP", serif;
 }
@@ -11,8 +10,8 @@ body {
 
 .form__input {
   display: block;
-  color: red;
-  color: blue;
+  color: #bebebe;
+  color: #2487ff;
   width: 80%;
   border-radius: 8%;
   margin-bottom: 2%;
@@ -25,7 +24,7 @@ body {
   margin-bottom: 5px;
   margin-left: 5px;
   transition: all 0.5s;
-  font-family: "Noto Serif JP", serif;
+  font-family: "Ubuntu", sans-serif;
   width: 70px;
   height: 30px;
   font-size: 16px;
