@@ -11,11 +11,24 @@ $font2: "Ubuntu",
 sans-serif;
 $font3: "Mansalva",
 cursive;
+@mixin color2 {
+    color: #2487ff;
+}
+
 
 /*Base*/
 
-@mixin color2 {
-    color: #2487ff;
+.title {
+    margin: 7% 0 7% 0;
+    text-align: center;
+    font-size: 22px;
+}
+
+.coment p {
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    margin: 7% 0 7% 0;
 }
 
 body {
@@ -25,7 +38,23 @@ body {
 .form-container {
     width: 80%;
     margin: 0 auto;
+    text-align: center;
+    margin: 7% 0 7% 0;
 }
+
+.form__btn {
+    width: 50%;
+    height: 25%;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #326295;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: all 0.3s ease 0s;
+}
+
+.form-container {}
 
 .form {
     &__input {

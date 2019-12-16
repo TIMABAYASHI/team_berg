@@ -1,5 +1,18 @@
 /*Base*/
 /*Base*/
+.title {
+  margin: 7% 0 7% 0;
+  text-align: center;
+  font-size: 22px;
+}
+
+.coment p {
+  width: 100%;
+  font-size: 15px;
+  text-align: center;
+  margin: 7% 0 7% 0;
+}
+
 body {
   font-family: "Noto Serif JP", serif;
 }
@@ -7,6 +20,20 @@ body {
 .form-container {
   width: 80%;
   margin: 0 auto;
+  text-align: center;
+  margin: 7% 0 7% 0;
+}
+
+.form__btn {
+  width: 50%;
+  height: 25%;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #326295;
+  text-transform: uppercase;
+  border-radius: 5px;
+  transition: all 0.3s ease 0s;
 }
 
 .form__input {
@@ -36,4 +63,4 @@ body {
   color: #bebebe;
 }
 
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=main.css.map */
