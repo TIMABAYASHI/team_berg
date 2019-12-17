@@ -1,0 +1,102 @@
+// カラー ベースカラーはグレー、メインカラーはブルー,
+$base-color1: gray;
+$base-color2: #bebebe;
+$base-color3: #eee;
+$main-color1: #2487ff;
+$main-color2: #abc7e9;
+$white-color: #fff;
+
+// フォント jは日本語、eは英語
+$font-j1: "Noto Serif JP", serif;
+$font-e1: "Ubuntu", sans-serif;
+$font-e2: "Mansalva", cursive;
+
+// mixin
+
+// 各ページの表題
+@mixin title {
+  color: $main-color1;
+  font-family: $font-e1;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+// ログイン画面のemail,password入力フォーム
+@mixin input-1 {
+  width: 76%;
+  color: rgb(38, 50, 56);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  background: rgba(136, 126, 126, 0.04);
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  text-align: center;
+  padding: 10px 20px;
+  margin-left: 46px;
+  margin-bottom: 27px;
+  &:focus {
+    border: 2px solid rgba(0, 0, 0, 0.18);
+  }
+}
+
+// ログイン画面のログインボタン
+@mixin btn-1 {
+  cursor: pointer;
+  border-radius: 5em;
+  text-align: center;
+  color: $white-color;
+  background: linear-gradient(to right, $main-color1, $main-color2);
+  border: 0;
+  font-size: 1em;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+  transition: all 0.3;
+  padding: 10px 40px;
+  margin-left: 35%;
+  &:hover {
+    color: $main-color1;
+    background: $white-color;
+    border: 1px solid $main-color1;
+  }
+}
+
+// ＊ルール
+// BEM記法でクラス名を指定すること（Block__Element--Modifier)
+// BlockとElementの間は、アンスコ二つ
+// ElementとModifierの間は、ハイフン二つ
+// 単語間はハイフン一つ
+
+// @mixinはテンプレート
+// 使用する時は、@include mixin名;
+
+// @extendはすでに使った内容と同じスタイルを当てたい時
+// 使用する時は、@extend クラス名
+
+// &を書くことで、表記を省略できる
+
+// ＊以下表記例
+// @mixin margin1 {
+//   margin: 0 0 10% 10%;
+// }
+
+// $fontsize1: 16px;
+
+// .form {
+//   &__input {
+//     display: block;
+//     @include margin1;
+//   }
+//   &__btn {
+//     color: #fff;
+//     background-color: #bebebe;
+//     font-size: $fontsize1;
+//     &:hover {
+//       background-color: white;
+//       border: 1px solid #bebebe;
+//     }
+//   }
+// }
