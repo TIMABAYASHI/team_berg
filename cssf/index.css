@@ -4,7 +4,7 @@ body {
 }
 
 .title {
-  color: #2487ff;
+  color: #24bddc;
   font-family: "Ubuntu", sans-serif;
   font-weight: bold;
   font-size: 1.5em;
@@ -51,7 +51,7 @@ body {
   border-radius: 5em;
   text-align: center;
   color: #fff;
-  background: linear-gradient(to right, #2487ff, #abc7e9);
+  background: linear-gradient(to right, #24bddc, #76d9e8);
   border: 0;
   font-size: 1em;
   box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
@@ -60,13 +60,13 @@ body {
   margin-left: 35%;
 }
 .form__btn:hover {
-  color: #2487ff;
+  color: #24bddc;
   background: #fff;
-  border: 1px solid #2487ff;
+  border: 1px solid #24bddc;
 }
 .form__remember {
   text-align: center;
-  color: #2487ff;
+  color: #24bddc;
   padding-top: 15px;
 }
 
@@ -74,7 +74,7 @@ body {
   width: 60%;
   margin: 20% auto;
   padding: 5%;
-  background: #eee;
+  background: #ebebeb;
   color: gray;
   font-family: "Noto Serif JP", serif;
   font-size: 0.9em;

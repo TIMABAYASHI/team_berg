@@ -4,7 +4,7 @@ body {
 }
 
 .title {
-  color: #2487ff;
+  color: #24bddc;
   font-family: "Ubuntu", sans-serif;
   font-weight: bold;
   font-size: 1.5em;
@@ -43,14 +43,11 @@ body {
   cursor: pointer;
   border: 1px solid gray;
   border-radius: 1.5em;
-  transition: 0.3s;
+  transition: 0.5;
   margin: 10% auto;
 }
 .form__input:hover {
-  background-color: #bebebe;
-  color: #fff;
-}
-.form__input:checked {
   background: #bebebe;
+  border: 1px solid #bebebe;
   color: #fff;
 }
