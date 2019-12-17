@@ -17,7 +17,7 @@ body {
 }
 
 .form-container {
-  background-color: $white-color;
+  background-color: #fff;
   width: 90%;
   height: 90%;
   border-radius: 1.5em;
@@ -30,9 +30,6 @@ body {
 .form {
   font-family: $font-e1;
   padding-top: 40px;
-  // &__btn {
-  //   @include btn-1;
-  // }
   &__input {
     display: block;
     width: 60%;
@@ -44,40 +41,12 @@ body {
     cursor: pointer;
     border: 1px solid $base-color1;
     border-radius: 1.5em;
-    transition: 0.3s;
+    transition: 0.5;
     margin: 10% auto;
     &:hover {
-      background-color: $base-color2;
-      color: #fff;
-    }
-    &:checked {
       background: $base-color2;
+      border: 1px solid $base-color2;
       color: #fff;
     }
   }
 }
-// input[type="button"] {
-//   display: none;
-// }
-// .label {
-//   display: block;
-//   width: 60%;
-//   height: 10%;
-//   color: $base-color1;
-//   text-align: center;
-//   line-height: 3em;
-//   cursor: pointer;
-//   border: 1px solid $base-color1;
-//   border-radius: 1.5em;
-//   transition: 0.3s;
-//   margin: 10% auto;
-// }
-// .label:hover {
-//   background-color: $base-color1;
-// }
-// input[type="button"]:checked + label {
-//   background: $base-color1;
-//   color: $white-color;
-// }
-
-// }
