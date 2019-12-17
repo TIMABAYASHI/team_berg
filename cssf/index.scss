@@ -1,59 +1,53 @@
-// @media screen and  (min-width: 375px) {
+@import "_base.scss";
 
-/*Base*/
-
-// カラー
-$color1: #bebebe;
-// フォント
-$font1: "Noto Serif JP",
-serif;
-$font2: "Ubuntu",
-sans-serif;
-$font3: "Mansalva",
-cursive;
-
-/*Base*/
-
-@mixin color2 {
-    color: #2487ff;
+// @media screen and(min-width: 375px) {
+body {
+  width: 100%;
+  height: 100%;
 }
 
-body {
-    font-family: $font1;
+.title {
+  color: $main-color1;
+  font-family: $font-e1;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
 }
 
 .form-container {
-    width: 80%;
-    margin: 0 auto;
+  background-color: $white-color;
+  width: 90%;
+  height: 90%;
+  padding-top: 30%;
+  padding-bottom: 30%;
+  margin: 10% auto;
+  border-radius: 1.5em;
+  box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
 }
 
 .form {
-    &__input {
-        display: block;
-        color: $color1;
-        @include color2;
-        width: 80%;
-        border-radius: 8%;
-        margin-bottom: 2%;
-    }
-    &__btn {
-        color: #fff;
-        background-color: #bebebe;
-        border-radius: 8px;
-        display: inline-block;
-        margin-bottom: 5px;
-        margin-left: 5px;
-        transition: all 0.5s;
-        font-family: $font2;
-        width: 70px;
-        height: 30px;
-        font-size: 16px;
-        &:hover {
-            background-color: white;
-            border: 1px solid #bebebe;
-            color: #bebebe;
-        }
-    }
+  padding-top: 40px;
+  font-family: $font-e1;
+  &__input {
+    @include input-1;
+  }
+  &__btn {
+    @include btn-1;
+  }
+  &__remember {
+    text-align: center;
+    color: $main-color1;
+    padding-top: 15px;
+  }
 }
 
+.policy {
+  width: 60%;
+  margin: 20% auto;
+  padding: 5%;
+  background: $base-color3;
+  color: $base-color1;
+  font-family: $font-j1;
+  font-size: 0.9em;
+}
 // }
